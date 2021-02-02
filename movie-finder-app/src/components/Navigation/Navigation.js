@@ -7,11 +7,11 @@ const Navigation = () => {
     return (
 
     <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">MovieFinder</Navbar.Brand>
+        <Navbar.Brand href="/">MovieFinder</Navbar.Brand>
         <Nav className="mr-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#movies">Find Movies</Nav.Link>
-        <Nav.Link href="#savedmovies">Most Watched</Nav.Link>
+        <Nav.Link href="/">Home</Nav.Link>
+        <Nav.Link href="/movies">Find Movies</Nav.Link>
+        <Nav.Link href="/savedmovies">Most Watched</Nav.Link>
         </Nav>
         <Form inline>
         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
