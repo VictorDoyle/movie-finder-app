@@ -2,12 +2,96 @@
     background-color: black !important;
 }
 
-.p {
-    font-size: xx-large;
+.h5 {
+    font-size: xxx-large;
 }
 
-.cardImage2 card-img{
-    max-width: 60%;
+p {
+    font-size: large;
+}
+
+
+/* content boxes with text */
+.cardGroupBox {
+    border-bottom: 8px solid #222;
+    max-height: 20%;
+}
+
+.cardTextBoxes {
+    padding-top: 10%;
+}
+
+
+/* video containers on landing page */
+.videoContainerBox {
+    position: relative;
+    z-index: 2;
+    max-width: 100%;
     height: auto;
     border: 0;
+}
+
+.videoContentBox {
+    width: 100%;
+    height: 100%;
+    max-width: 74%;
+    max-height: 54%;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.videoContentBox video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+
+.imageCardBox img {
+   justify-content: center;
+   left: 0;
+   right: 0;
+}
+
+.videoContainerBox2 {
+    position: relative;
+    z-index: 2;
+    margin: -5% 0 0 0;
+    
+}
+
+
+.videoContentBox2 {
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+    display: block;
+    top: 34%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.videoContentBox2 video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+video {
+    object-fit: contain;
+}
+
+.overFlowControl {
+    position: relative;
+    overflow: hidden;
 }
