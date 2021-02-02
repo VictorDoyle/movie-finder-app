@@ -1,3 +1,9 @@
+/* font family */
+/* font-family: 'Inter', sans-serif; Weight: 300, 400, 500 and 700 */
+* {
+  font-family: 'Inter', sans-serif;
+}
+
 .App {
   text-align: center;
 }
