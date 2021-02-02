@@ -3,7 +3,7 @@ import React from 'react';
 const Movies = () => {
   return (
     <div>
-      <h1>See all these amazing fuckin movies</h1>
+      <h1> Show all movies here</h1>
     </div>
   );
 }
