@@ -1,0 +1,13 @@
+.bg-dark {
+    background-color: black !important;
+}
+
+.p {
+    font-size: xx-large;
+}
+
+.cardImage2 card-img{
+    max-width: 60%;
+    height: auto;
+    border: 0;
+}

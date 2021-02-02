@@ -4,7 +4,44 @@
   font-family: 'Inter', sans-serif;
 }
 
+
 /* SECTION ==========HOME PAGE STYLING ========== */
+
+.landingPageTitle {
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/757ab38f-5d08-40bc-b3eb-eaba63ed8203/1019363a-1216-40a8-9cee-1d474d537bf9/US-en-20210125-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-size: cover;
+  height: 60vh;
+  padding: 20vh;
+}
+
+.landingPageTitle , h1 , h2 , h3 {
+  color: white;
+  text-align: center;
+}
+
+.SignupForm {
+  display: inline-block;
+  position: relative;
+  padding-top: 25px;
+  left: auto;
+  right: auto;
+  width: 60%;
+}
+
+#submitEmailButton {
+  display:inline-block;
+  width:30%; 
+} 
+
+#submitEmailForm {
+  display:inline-block; 
+  width:70%;} 
+
+
+.landingPageContent {
+  background-color: black;
+  color: white;
+}
 
 
 
