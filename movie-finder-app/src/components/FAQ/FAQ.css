@@ -1,0 +1,29 @@
+.accordion {
+    justify-content: center;
+    left: auto;
+    right: auto;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-bottom: 200px;
+
+}
+
+.accordionLandingPage {
+    background-color: black;
+}
+
+.accordionCard {
+    background-color: #303030;
+    color: white;
+    padding: .8em 2.2em .8em 1.2em;
+    margin-bottom: 1px;
+    font-weight: 400;
+    position: relative;
+    width: 100%;
+    border: 0;
+}
+
+.accordionCard .btn-link{
+    color: white;
+    text-decoration-style: none;
+}
