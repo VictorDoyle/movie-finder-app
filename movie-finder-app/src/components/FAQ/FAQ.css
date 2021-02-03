@@ -4,12 +4,11 @@
     right: auto;
     padding-left: 25%;
     padding-right: 25%;
-    margin-bottom: 200px;
-
 }
 
 .accordionLandingPage {
     background-color: black;
+    padding-top: 3%;
 }
 
 .accordionCard {
@@ -26,4 +25,8 @@
 .accordionCard .btn-link{
     color: white;
     text-decoration-style: none;
+}
+
+.faqSignUp {
+   background-color: aqua;
 }

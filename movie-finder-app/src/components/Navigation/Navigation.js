@@ -11,7 +11,8 @@ const Navigation = () => {
         <Nav className="mr-auto">
         <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="/movies">Find Movies</Nav.Link>
-        <Nav.Link href="/savedmovies">Most Watched</Nav.Link>
+        <Nav.Link href="/savedmovies">Saved Movies</Nav.Link>
+        <Nav.Link href="/watchedmovies">Movies You've Watched</Nav.Link>
         </Nav>
         <Form inline>
         <FormControl type="text" placeholder="Search" className="mr-sm-2" />

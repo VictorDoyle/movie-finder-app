@@ -1,6 +1,9 @@
 import React from 'react';
 import { CardGroup, Card} from 'react-bootstrap'
 import './LandingContentCard.css'
+import FAQ from '../FAQ/FAQ';
+import SignUpForm from '../SignUp/SignUpForm'
+
 
 const LandingContentCard = () => {
     return (
@@ -69,6 +72,28 @@ const LandingContentCard = () => {
     </div>
     </div>
 
+
+    </Card>
+    
+        
+  
+</CardGroup>
+
+{/* FAQ AND EMAIL SIGNUP NEAR FOOTER */}
+    < FAQ />
+
+<CardGroup className="cardGroupBox4">
+    <Card className="bg-dark signUpTextLanding">
+        <Card.Body>
+        <Card.Text>
+        Ready to Explore? Enter your email below
+        </Card.Text>
+        </Card.Body>
+    </Card>
+
+    <Card className="bg-dark signUpFormLanding"> 
+    
+    <SignUpForm />
 
     </Card>
     

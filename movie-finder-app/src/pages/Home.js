@@ -2,8 +2,6 @@ import React from 'react';
 import Loader from '../components/Loader/Loader'
 import SignUpForm from '../components/SignUp/SignUpForm';
 import LandingContentCard from '../components/Content/LandingContentCard';
-import FAQ from '../components/FAQ/FAQ';
-
 const Home = () => {
   return (
     <div> 
@@ -17,8 +15,7 @@ const Home = () => {
         <div className="landingPageContent">
           <LandingContentCard/>
         </div>
-        < FAQ />
-        
+      
     </div>
   );
 }

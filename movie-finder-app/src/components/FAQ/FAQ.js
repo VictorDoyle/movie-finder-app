@@ -1,6 +1,7 @@
 import React from 'react';
 import { Accordion, Card, Button} from 'react-bootstrap'
 import './FAQ.css'
+import SignUpForm from '../SignUp/SignUpForm';
 
 const FAQ = () => {
     return (
@@ -46,6 +47,7 @@ const FAQ = () => {
             </Accordion.Collapse>
         </Card>
         </Accordion>
+
     </div>
     );
 }
